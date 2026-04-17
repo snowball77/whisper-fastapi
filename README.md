@@ -2,6 +2,8 @@
 
 Whisper-FastAPI is a very simple Python FastAPI interface for konele and OpenAI services. It is based on the `faster-whisper` project and provides an API for konele-like interface, where translations and transcriptions can be obtained by connecting over websockets or POST requests.
 
+This fork was created to build a Docker container tailored for both CPU and GPU on NVIDIA DGX Spark systems.
+
 ## Features
 
 - **Translation and Transcription**: The application provides an API for konele service, where translations and transcriptions can be obtained by connecting over websockets or POST requests.
